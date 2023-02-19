@@ -19,4 +19,4 @@ A website for keeping track of the different places you've gone scuba diving and
 ![mock up](https://i.imgur.com/QbDpLYX.jpg )
 
 ### Link to Project
-[My Rendered Project]()
+[My Deployed Project](https://effortless-gumption-d50375.netlify.app/)
