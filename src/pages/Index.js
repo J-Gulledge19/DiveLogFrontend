@@ -8,7 +8,7 @@ function Index(props) {
         {dive.map(dive => (
       <div key={dive._id} className="dive">
         <h3>{dive.location}</h3>
-        <Link to={`/${dive._id}`}>
+        <Link to={`show/${dive.id}`}>
         <img src={dive.image} alt={dive.location} />
         </Link>
         

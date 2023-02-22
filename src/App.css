@@ -40,6 +40,7 @@
 img{
   max-width: 200px;
   box-shadow: 10px 10px 5px rgb(1, 1, 1);
+  margin-bottom: 40px;
 }
 
 nav{
@@ -47,4 +48,18 @@ nav{
   font-size: large;
 }
 
+button{
+  background-color: blue !important;
+  border: #61dafb;
+  box-shadow: 5px 5px 2px rgb(1, 1, 1);
+}
 
+input{
+  background-color: blue !important;
+  border: #61dafb !important;
+  box-shadow: 5px 5px 2px rgb(1, 1, 1);
+}
+
+h5{
+  margin-bottom: 0px;
+}

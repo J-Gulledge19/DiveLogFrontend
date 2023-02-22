@@ -10,7 +10,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     <>
         <Route path="/" element={<App/>}>
             <Route path="" element={<Index/>} loader={indexLoader}/>
-            <Route path="post/:id" element={<Show/>} loader={showLoader} />
+            <Route path="show/:id" element={<Show/>} loader={showLoader} />
             <Route path="create" element={<Create/>}/>
             <Route path="update/:id" element={<Update/>}/>
             <Route path="delete/:id"/>

@@ -10,6 +10,6 @@ export const indexLoader = async () => {
 
 export const showLoader = async ({params}) => {
     const response = await fetch(`${url}${params.id}/`)
-    const todo = await response.json()
-    return todo
+    const dive = await response.json()
+    return dive
 }
