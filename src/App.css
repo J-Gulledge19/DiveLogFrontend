@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+img{
+  max-width: 200px;
+  box-shadow: 10px 10px 5px rgb(1, 1, 1);
+}
+
+nav{
+  margin: 10px;
+  font-size: large;
+}
+
+
