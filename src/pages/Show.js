@@ -14,10 +14,10 @@ const Show = () => {
             <h5>Description:</h5>
             <p>{dive.description}</p>                
 
-            <Link to={`edit/${dive._id}`}>
+            <Link to={`edit/${dive.id}`}>
                 <button>Edit</button>
             </Link>
-            <Form action={`/delete/${dive._id}`} method="delete">
+            <Form action={`/delete/${dive.id}`} method="delete">
                 <input type="submit" value={`Delete ${dive.location}`} />
             </Form>
         </div>

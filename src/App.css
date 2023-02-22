@@ -60,6 +60,15 @@ input{
   box-shadow: 5px 5px 2px rgb(1, 1, 1);
 }
 
+textarea:focus{
+  border: 1px solid #1670BE !important;
+}
+
 h5{
   margin-bottom: 0px;
+}
+
+.form-page{
+  width:90vw;
+  margin-left: 20px;
 }
