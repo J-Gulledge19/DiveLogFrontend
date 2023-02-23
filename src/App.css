@@ -43,10 +43,28 @@ img{
   margin-bottom: 40px;
 }
 
-nav{
-  margin: 10px;
+.nav{
+  /* background-image: url("https://i.imgur.com/pZkXFGg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 80%;
+  height: 250px; */
+  margin-bottom: 20px;
   font-size: large;
+  background-color: black;
 }
+
+.nav a{
+  color: rgb(88, 232, 146);
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration-line: underline;
+}
+
+.nav a:hover{
+  color: rgb(153, 247, 191);
+}
+
 
 button{
   background-color: blue !important;
@@ -62,13 +80,48 @@ input{
 
 textarea:focus{
   border: 1px solid #1670BE !important;
+  background-color: #1d95ff;
 }
 
 h5{
   margin-bottom: 0px;
 }
 
+h3, h4, h5, p{
+  color: black;
+}
+
 .form-page{
   width:90vw;
   margin-left: 20px;
+}
+
+.show-page,
+  img{
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.diveimg{
+  max-width: 200px;
+}
+
+body{
+  background-image: url("https://i.imgur.com/5DT8xdT.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+@media screen and (max-width: 480px) {
+  .show-page,
+  img{
+    max-width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 }

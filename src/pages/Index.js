@@ -9,7 +9,7 @@ function Index(props) {
       <div key={dive._id} className="dive">
         <h3>{dive.location}</h3>
         <Link to={`show/${dive.id}`}>
-        <img src={dive.image} alt={dive.location} />
+        <img className="diveimg" src={dive.image} alt={dive.location} />
         </Link>
         
         {/* <h3>Origin: {dive.countryOfOrigin}</h3> */}

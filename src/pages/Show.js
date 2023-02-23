@@ -7,7 +7,7 @@ const Show = () => {
 
     return (
         <div className="show-page">
-            <h2 className="showTitle">{dive.location}</h2>
+            <h3 className="showTitle">{dive.location}</h3>
             <img className="showImage" src={dive.image} alt={dive.location} />
             
             <h4>Date Visited: {dive.date}</h4>
