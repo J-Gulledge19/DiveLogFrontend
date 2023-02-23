@@ -5,7 +5,7 @@ import Index from "./pages/Index"
 import Show from "./pages/Show"
 import Create from "./pages/Create"
 import Update from "./pages/Update"
-import { createAction, deleteAction } from "./actions"
+import { createAction, deleteAction, updateAction } from "./actions"
 
 const router = createBrowserRouter(createRoutesFromElements(
     <>
@@ -13,7 +13,8 @@ const router = createBrowserRouter(createRoutesFromElements(
             <Route path="" element={<Index/>} loader={indexLoader}/>
             <Route path="show/:id" element={<Show/>} loader={showLoader} />
             <Route path="create" element={<Create/>} action={createAction}/>
-            <Route path="update/:id" element={<Update/>}/>
+            <Route path="edit/:id" element={<Update/>} loader= {showLoader}/>
+            <Route path="update/:id" action={updateAction}/>
             <Route path="delete/:id" action={deleteAction}/>
         </Route>
     </>

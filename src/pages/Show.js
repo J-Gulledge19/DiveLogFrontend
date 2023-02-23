@@ -14,7 +14,7 @@ const Show = () => {
             <h5>Description:</h5>
             <p>{dive.description}</p>                
 
-            <Link to={`edit/${dive.id}`}>
+            <Link to={`/edit/${dive.id}`}>
                 <button>Edit</button>
             </Link>
             <Form action={`/delete/${dive.id}`} method="delete">
