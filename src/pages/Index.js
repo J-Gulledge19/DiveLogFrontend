@@ -1,20 +1,14 @@
-// import { useLoaderData, Link } from "react-router-dom"
+function Index(props) {
 
-// function Index(props) {
-//     const dive = useLoaderData()
-
-//     return (
-//       <div>  
-//         {dive.map(dive => (
-//       <div key={dive._id} className="dive">
-//         <h3>{dive.location}</h3>
-//         <Link to={`show/${dive.id}`}>
-//         <img className="diveimg" src={dive.image} alt={dive.location} />
-//         </Link>
-//       </div>
-//         ))}
-//       </div>
-//     )
-//   }
+    return (
+      <div className="divecard">  
+            <div className="intro">
+                <p>There is adventure in every dive why not save your favorite<br></br> experiences here in a digital divelog! </p>
+                <img src="https://i.imgur.com/5FMBjeq.jpg" alt=""/>
+            </div>        
+      </div>
+   
+    )
+  }
   
-//   export default Index
+  export default Index

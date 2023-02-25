@@ -24,7 +24,7 @@ export const createAction = async ({request}) => {
     })
 
     // redirect back to index page
-    return redirect("/")
+    return redirect('/')
 }
 
 

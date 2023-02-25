@@ -6,7 +6,7 @@ function Header(props) {
     <>
       <nav className="nav">
           <h1>My DiveLog</h1>
-          {/* <Link to='/'>Dive List</Link> */}
+          <Link to='/'>Home</Link>
           <Link to='/create'> Add New Dive </Link>
       </nav>
       <div className="list"> 
