@@ -37,6 +37,7 @@
   }
 }
 
+/* main background image */
 body{
   background-image: url("https://i.imgur.com/5DT8xdT.jpg");
   background-repeat: no-repeat;
@@ -45,12 +46,7 @@ body{
   background-position: center;
 }
 
-img{
-  max-width: 200px;
-  box-shadow: 10px 10px 5px rgb(1, 1, 1);
-  margin-bottom: 40px;
-}
-
+/* Nav bar styling */
 .nav{
   /* background-image: url("https://i.imgur.com/pZkXFGg.jpg");
   background-size: cover;
@@ -66,10 +62,6 @@ img{
   padding: 10px;
 }
 
-h1{
-  margin-bottom: 0%;
-}
-
 .nav a{
   color: rgb(88, 232, 146);
   text-align: center;
@@ -82,59 +74,7 @@ h1{
   color: rgb(153, 247, 191);
 }
 
-
-button{
-  background-color: blue !important;
-  border: #61dafb;
-  box-shadow: 5px 5px 2px rgb(1, 1, 1);
-}
-
-input{
-  background-color: blue !important;
-  border: #61dafb !important;
-  box-shadow: 5px 5px 2px rgb(1, 1, 1);
-}
-
-textarea:focus{
-  border: 1px solid #1670BE !important;
-  background-color: #1d95ff;
-}
-
-h5{
-  margin-bottom: 0px;
-}
-
-h3, h4, h5, h2, p{
-  color: black;
-}
-
-.form-page{
-  width: 100vh;
-}
-
-.show-page,
-  img{
-    max-width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.divecard{
-  width: 80vw;
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  left: 250px;
-}
-
-/* .diveimg{
-  max-width: 200px;
-  border-radius: 50%;
-} */
-
-
-/* Places I've Dived */
+/* Places I've Dived list styling */
 .list{
   background-color: #1d95ff;
   max-width: 250px;
@@ -145,6 +85,75 @@ h3, h4, h5, h2, p{
   height: 100vh;
 }
 
+/* Base image styling */
+img{
+  max-width: 200px;
+  box-shadow: 10px 10px 5px rgb(1, 1, 1);
+  margin-bottom: 40px;
+}
+
+/* Form, Input, and Button styling */
+.form-page{
+  width: 100vh;
+}
+
+input{
+  background-color: blue !important;
+  border: #61dafb !important;
+  box-shadow: 5px 5px 2px rgb(1, 1, 1);
+}
+
+button{
+  background-color: blue !important;
+  border: #61dafb;
+  box-shadow: 5px 5px 2px rgb(1, 1, 1);
+}
+
+textarea:focus{
+  border: 1px solid #1670BE !important;
+  background-color: #1d95ff;
+}
+
+/* All h and p tag styling */
+h1{
+  margin-bottom: 0%;
+}
+
+h5{
+  margin-bottom: 0px;
+}
+
+h3, h4, h5, h2, p{
+  color: black;
+}
+
+/* div container for show */
+.divecard{
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 250px;
+}
+
+/* Show area styling */
+.show-page,
+  img{
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Image for index styling */
+/* .diveimg{
+  max-width: 200px;
+  border-radius: 50%;
+} */
+
+
+
+/* Sytling for small screens */
 @media screen and (max-width: 480px) {
   .show-page,
   img{
@@ -159,6 +168,12 @@ h3, h4, h5, h2, p{
   margin-top: 10px;
   width: 100%;
   max-height: 150px;
-  max-width: 400px;
+  max-width: 100vw;
 }
+
+.divecard{
+  margin: 180px 0px;
+  left: 4rem;
+}
+
 }
