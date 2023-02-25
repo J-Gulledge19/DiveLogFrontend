@@ -53,7 +53,7 @@ export const updateAction = async ({request, params}) => {
     })
 
     // redirect back to show page page
-    return redirect('/')
+    return redirect(`/show/${params.id}`)
 }
 
 
