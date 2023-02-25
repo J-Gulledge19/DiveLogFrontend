@@ -151,6 +151,10 @@ h5, p{
     margin-right: auto;
 }
 
+.dive{
+  text-decoration: underline;
+}
+
 /* Image for index styling */
 /* .diveimg{
   max-width: 200px;
