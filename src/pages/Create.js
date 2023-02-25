@@ -3,6 +3,7 @@ import { Form } from "react-router-dom"
 function Create(props) {
 
     return (
+    <div className="divecard">
         <div className="form-page">
             <h2>New Dive Experience</h2><br/>
             <Form action="/create" method="post">
@@ -17,6 +18,7 @@ function Create(props) {
                 <input type="submit" value="Add Dive" />
             </Form>
         </div>
+    </div>
     )
 }
 

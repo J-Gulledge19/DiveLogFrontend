@@ -37,6 +37,14 @@
   }
 }
 
+body{
+  background-image: url("https://i.imgur.com/5DT8xdT.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 img{
   max-width: 200px;
   box-shadow: 10px 10px 5px rgb(1, 1, 1);
@@ -49,16 +57,25 @@ img{
   background-repeat: no-repeat;
   background-position: 100% 80%;
   height: 250px; */
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   font-size: large;
   background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+h1{
+  margin-bottom: 0%;
 }
 
 .nav a{
   color: rgb(88, 232, 146);
   text-align: center;
-  padding: 14px 10px;
+  padding: 14px 0px 0px 0px;
   text-decoration-line: underline;
+  margin-left: 20px;
 }
 
 .nav a:hover{
@@ -92,8 +109,7 @@ h3, h4, h5, h2, p{
 }
 
 .form-page{
-  width:90vw;
-  margin-left: 20px;
+  width: 100vh;
 }
 
 .show-page,
@@ -104,25 +120,45 @@ h3, h4, h5, h2, p{
     margin-right: auto;
 }
 
-.diveimg{
-  max-width: 200px;
-  border-radius: 50%;
+.divecard{
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 250px;
 }
 
-body{
-  background-image: url("https://i.imgur.com/5DT8xdT.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
+/* .diveimg{
+  max-width: 200px;
+  border-radius: 50%;
+} */
+
+
+/* Places I've Dived */
+.list{
+  background-color: #1d95ff;
+  max-width: 250px;
+  margin-top: 0px;
+  position: absolute;
+  width: 100%;
+  clear: both;
+  height: 100vh;
 }
 
 @media screen and (max-width: 480px) {
   .show-page,
   img{
-    max-width: 350px;
+    max-width: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.list{
+  overflow-y: scroll;
+  margin-top: 10px;
+  width: 100%;
+  max-height: 150px;
+  max-width: 400px;
 }
 }
