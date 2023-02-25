@@ -128,6 +128,10 @@ h3, h4, h5, h2, p{
   color: black;
 }
 
+h5, p{
+  font-weight: bold;
+}
+
 /* div container for show */
 .divecard{
   width: 80vw;
