@@ -10,6 +10,7 @@ A website for keeping track of the different places you've gone scuba diving and
 - Python
 - Django
 
+### [Backend Repo](https://github.com/J-Gulledge19/DiveLogBackend)
 
 ### Link to Trello Board
 
